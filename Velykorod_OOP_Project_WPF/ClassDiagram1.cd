@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="EventTickets.UserRepository">
+    <Position X="7.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAIAAACAAIAAAAAAAAAAAAAQAAAAABAAAEAA=</HashCode>
+      <FileName>Model\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventTickets.Event">
+    <Position X="11.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIAAAAIAhAAQIJAIAhBSAgAAEAAABQAACQBACAQA=</HashCode>
+      <FileName>Model\Event.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventTickets.PaymentProcessor">
+    <Position X="3.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\PaymentProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventTickets.PaymentDetails">
+    <Position X="7.75" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IAEEAAEAAAAAAAAAAAAAAACAwAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Model\PaymentsDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventRepository">
+    <Position X="19" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAABAgBAAAAAAAACAwAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Model\EventRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventTickets.ShoppingCart">
+    <Position X="15" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBABICAAABAACAAAQAAAAAAAAAAAAAAIAIAAAAAAg=</HashCode>
+      <FileName>Model\ShoppingCart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventTickets.Ticket">
+    <Position X="16" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAQAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="EventTickets.IShoppingCart">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIBABIAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAg=</HashCode>
+      <FileName>Model\IShoppingCart.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EventTickets.IManageable">
+    <Position X="0.5" Y="4.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\IManageable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EventTickets.ITicketManagament">
+    <Position X="0.5" Y="3" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>Model\ITicketManagament.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="EventTickets.Genre">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAIA=</HashCode>
+      <FileName>Model\Genre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="EventTickets.City">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAgIAAAAAAAA=</HashCode>
+      <FileName>Model\City.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

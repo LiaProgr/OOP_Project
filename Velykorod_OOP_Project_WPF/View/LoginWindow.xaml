@@ -1,0 +1,61 @@
+﻿<Window x:Class="Velykorod_OOP_Project_WPF.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Velykorod_OOP_Project_WPF.View"
+        mc:Ignorable="d"
+        xmlns:helpers="clr-namespace:Velykorod_OOP_Project_WPF.Helpers"
+        Title="LoginWindow" Height="450" Width="800"       WindowState="Maximized">
+
+    <Viewbox Stretch="Uniform">
+        <Grid Width="800" Height="450">
+            <Rectangle HorizontalAlignment="Center" Height="50" Margin="0,10,0,0" Stroke="#FFC0BD50" VerticalAlignment="Top" Width="800" Fill="#FFC0BD50" RadiusX="20" RadiusY="20"/>
+            <Image Margin="58,10,619,349" Source="/Image1.png" Stretch="Fill"/>
+            <Rectangle HorizontalAlignment="Left" Height="290" Margin="73,108,0,0" Stroke="#FFFFFB8A" VerticalAlignment="Top" Width="681" Fill="#FFFFFB8A" RadiusX="20" RadiusY="20"/>
+            <Rectangle HorizontalAlignment="Left" Height="47" Margin="254,120,0,0" Stroke="#FFFAD646" VerticalAlignment="Top" Width="318" Fill="#FFFAD646" RadiusX="20" RadiusY="20"/>
+            <Label Content="Авторизація" HorizontalAlignment="Left" Margin="347,112,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+            <Label Content="користувача/адміністратора" HorizontalAlignment="Left" Margin="278,130,0,0" VerticalAlignment="Top" FontSize="20"/>
+            <Label Content="Логін:" HorizontalAlignment="Left" Margin="139,199,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+            <Label Content="Пароль:" HorizontalAlignment="Left" Margin="139,253,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+            <Button x:Name="Btn_SignIn" Content="Увійти" HorizontalAlignment="Left" Margin="184,336,0,0" VerticalAlignment="Top" Background="#FFFFE373" BorderBrush="#FFFFE373" FontSize="20" FontWeight="Bold" BorderThickness="0" Command="{Binding LoginCommand }" >
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                    CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"
+                                  Margin="10,5"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <TextBox x:Name="TxBx_Login" HorizontalAlignment="Left" Margin="254,0,0,0" Text="{Binding Username,UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" VerticalAlignment="Center" Width="318" Background="#FFFAD646" BorderBrush="#FFFAD646" BorderThickness="2" Height="33" FontSize="20">
+                <TextBox.Template>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="10">
+                            <!-- Задаємо округлені кути -->
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </TextBox.Template>
+            </TextBox>
+            <PasswordBox x:Name="TxBx_Password" HorizontalAlignment="Left" helpers:PasswordBoxHelper.Password="{Binding Password,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Margin="254,253,0,0" VerticalAlignment="Top" Width="318" Background="#FFFAD646" BorderBrush="#FFFAD646" BorderThickness="2" Height="33" FontSize="20">
+                <PasswordBox.Template>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="10">
+                            <!-- Задаємо округлені кути -->
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </PasswordBox.Template>
+            </PasswordBox>
+        </Grid>
+    </Viewbox>
+</Window>

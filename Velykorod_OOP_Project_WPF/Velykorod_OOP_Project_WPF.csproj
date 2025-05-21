@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image1.png" />
+    <None Remove="Image3.png" />
+    <None Remove="Image4.png" />
+    <None Remove="Image5.png" />
+    <None Remove="Image6.png" />
+    <None Remove="Imeges\augen_.png" />
+    <None Remove="Imeges\back.png" />
+    <None Remove="Imeges\cart.png" />
+    <None Remove="Imeges\exit.png" />
+    <None Remove="Imeges\keruv.png" />
+    <None Remove="Imeges\peregl.png" />
+    <None Remove="Imeges\search.png" />
+    <None Remove="Imeges\w.png" />
+    <None Remove="Imeges\znachok-lokatsii.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25104.5739" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="QuestPDF" Version="2025.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+    <Resource Include="Image3.png" />
+    <Resource Include="Image4.png" />
+    <Resource Include="Image5.png" />
+    <Resource Include="Image6.png" />
+    <Resource Include="Imeges\augen_.png" />
+    <Resource Include="Imeges\back.png" />
+    <Resource Include="Imeges\cart.png" />
+    <Resource Include="Imeges\exit.png" />
+    <Resource Include="Imeges\keruv.png" />
+    <Resource Include="Imeges\peregl.png" />
+    <Resource Include="Imeges\search.png" />
+    <Resource Include="Imeges\w.png" />
+    <Resource Include="Imeges\znachok-lokatsii.png" />
+  </ItemGroup>
+
+</Project>

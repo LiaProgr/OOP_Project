@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModels.AdminPanelViewModel" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAAAAIAABAAIA=</HashCode>
+      <FileName>ViewModels\AdminPanelViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModel.EditAddViewModel" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAJAAIAQYoAggAAIIAIEhAQAgAAEAAIBCAAAAAAEARA=</HashCode>
+      <FileName>ViewModels\EditAddViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModels.EventManagementViewModel" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQIAAKAAAAJCBBgIAAAQAAAggAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\EventManagementViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModel.LoginViewModel" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAIQBAAAAAgAAAAAACAAIAAACAAAA=</HashCode>
+      <FileName>ViewModels\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.Helpers.PasswordBoxHelper" Collapsed="true">
+    <Position X="0.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAIQAgABAEAAAAAAAAAABAAAAAAgAAAAAA=</HashCode>
+      <FileName>ViewModels\PasswordBoxHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModel.RelayCommand" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModel.RUCartViewModel" Collapsed="true">
+    <Position X="0.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASEEAAAAgQEQDAAAIEASAAAAgAAAAAAAAAAIIAAAAAA=</HashCode>
+      <FileName>ViewModels\RUCartViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RUDetailsViewModel" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIBAAAAAAACBAAJEAAQAAAiAAEQAAAAAAAAAAAICA=</HashCode>
+      <FileName>ViewModels\RUDetailsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RUMyTicketsViewModel" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ESAAQAAAAAAACAAAIEAQAAAEgAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ViewModels\RUMyTicketsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Velykorod_OOP_Project_WPF.ViewModel.RUPanelNaviViewModel" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQBIMCAAKIABgAAAJEJCUAYAggEEAAAAIAAAgAIgAAA=</HashCode>
+      <FileName>ViewModels\RUPanelNaviViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RUPayViewModel" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQEEAAEAQAIACgAAIGAAAACAwgAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\RUPayViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
