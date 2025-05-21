@@ -9,6 +9,6 @@ namespace EventTickets
     public interface ITicketManagament
     {
         public void AddToCart(Event selectedEvent, int quantity);
-        void DownloadTicketPDF(Ticket ticket);// Завантаження квитка у PDF
+        void DownloadTicketPDF(Ticket ticket);// Завантаження квитка у 
     }
 }
